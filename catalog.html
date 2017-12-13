@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <title>Nerds</title>
+    </head>
+    <body>
+        <header class="site-header">
+            <div class="wrapper">
+                <div class="header-logo">
+                    <img src="img/logo.png" alt="Nerds">
+                </div>
+                <nav class="header-menu">
+                    <li><a href="#">Студия</a></li>
+                    <li><a href="#">Клиенты</a></li>
+                    <li><a href="#">Магазин</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </nav>
+                <div class="header-user">
+                    <a class="cart" href="#">Корзина</a>
+                </div>
+                <h1>Добро пожаловать в магазин готовых макетов</h1>
+            </div>
+        </header>
+        <main class="wrapper">
+            <section class="shop-content clearfix">
+                <div class="shop-filter">
+                    <div class="filter-scroll">
+                        <fieldset>
+                            <legend>Стоимость</legend>
+                            <div class="scroll-box">
+                                <span class="left-knob"></span>
+                                <span class="right-knob"></span>
+                            </div>
+                            <div class="scroll-range">
+                                <span class="range-start word">От</span><span class="range-start number"></span><span class="range-end word">До</span><span class="range-end number"></span>
+                            </div>
+                        </fieldset>
+                    </div>
+                    <form action="#" method="post" id="shop-filter">
+                        <fieldset>
+                            <legend>Сетка:</legend>
+                            <div class="t-row">
+                                <div class="t-cell"><input type="radio" name="layout" value="adaptive" id="adaptive"></div>
+                                <div class="t-cell"><label for="adaptive">Адаптивная</label></div>
+                            </div>
+                            <div class="t-row">
+                                <div class="t-cell"><input type="radio" name="layout" value="static" id="static" checked></div>
+                                <div class="t-cell"><label for="static">Фиксированная</label></div>
+                            </div>
+                            <div class="t-row">
+                                <div class="t-cell"><input type="radio" name="layout" value="liquid" id="liquid"></div>
+                                <div class="t-cell"><label for="liquid">Резиновая</label></div>
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Особенности:</legend>
+                            <div class="t-row">
+                                <div class="t-cell"><input type="checkbox" name="feats" value="slider" id="slider" checked></div>
+                                <div class="t-cell"><label for="slider">Слайдер</label></div>
+                            </div>
+                            <div class="t-row">
+                                <div class="t-cell"><input type="checkbox" name="feats" value="adds" id="adds"></div>
+                                <div class="t-cell"><label for="adds">Блок преимуществ</label></div>
+                            </div>
+                            <div class="t-row">
+                                <div class="t-cell"><input type="checkbox" name="feats" value="news" id="news" checked></div>
+                                <div class="t-cell"><label for="news">Новости</label></div>
+                            </div>
+                            <div class="t-row">
+                                <div class="t-cell"><input type="checkbox" name="feats" value="gallery" id="gallery"></div>
+                                <div class="t-cell"><label for="gallery">Галерея</label></div>
+                            </div>
+                            <div class="t-row">
+                                <div class="t-cell"><input type="checkbox" name="feats" value="cart" id="cart"></div>
+                                <div class="t-cell"><label for="cart">Корзина</label></div>
+                            </div>
+                        </fieldset>
+                        <button class="btn filter-item" type="button">Показать</button>
+                    </form>
+                </div>
+                <div class="shop-window">
+                    <div class="shop-item">
+                        <div class="item-browse"></div>
+                        <img class="img-preview" src="img/photo/shop-1.jpg" width="240" height="240" alt="Макет Aviator">
+                    </div>
+                    <div class="shop-item">
+                        <div class="item-browse"></div>
+                        <img class="img-preview" src="img/photo/shop-2.jpg" width="240" height="240" alt="Макет Sunset">
+                    </div>
+                    <div class="shop-item">
+                        <div class="item-browse"></div>
+                        <img class="img-preview" src="img/photo/shop-3.jpg" width="240" height="240" alt="Макет Forte">
+                    </div>
+                    <div class="shop-item">
+                        <div class="item-browse"></div>
+                        <img class="img-preview" src="img/photo/shop-4.jpg" width="240" height="240" alt="Макет Marquee">
+                    </div>
+                    <div class="shop-item">
+                        <div class="item-browse"></div>
+                        <img class="img-preview" src="img/photo/shop-5.jpg" width="240" height="240" alt="Макет Avenue">
+                    </div>
+                    <div class="shop-item">
+                        <div class="item-browse"></div>
+                        <img class="img-preview" src="img/photo/shop-6.jpg" width="240" height="240" alt="Макет Dovetail">
+                    </div>
+                    <div class="paginator">
+                        <ul>
+                            <li><a class="active" href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">Следующая</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <section class="contact">
+            <div class="contact-info">
+                <strong>NЁRDS DESIGN STUDIO</strong><br>
+                <p>
+                    191186, Санкт-Петербург,<br>
+                    ул. Б. Конюшенная, д. 19/8
+                </p>
+                <p>тел. +7 (812) 275-75-75</p>
+                <a class="btn contact-btn" href="#">Напишите нам</a>
+            </div>
+            <img class="contact-map" src="img/map.jpg" alt="Как нас найти">
+        </section>
+        <footer class="site-footer">
+            <div class="wrapper">
+                <div class="footer-social">
+                    <a href="#" class="social-btn social-btn-vk">Вконтакте</a>
+                    <a href="#" class="social-btn social-btn-fb">Фейсбук</a>
+                    <a href="#" class="social-btn social-btn-inst">Инстаграм</a>
+                </div>
+                <div class="footer-advert">
+                    <h3>Давайте дружить, это выгодно!</h3>
+                    <p>Скидка 10% для друзей из социальных сетей.</p>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
