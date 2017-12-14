@@ -2,11 +2,12 @@
 <html lang="ru">
     <head>
         <meta charset="utf-8">
-        <title>Nerds</title>
+        <link href="css/catalog-style.css" rel="stylesheet" type="text/css">
+        <title>Catalogue</title>
     </head>
     <body>
         <header class="site-header">
-            <div class="wrapper">
+            <div class="wrapper clearfix">
                 <div class="header-logo">
                     <img src="img/logo.png" alt="Nerds">
                 </div>
@@ -41,11 +42,11 @@
                         <fieldset>
                             <legend>Сетка:</legend>
                             <div class="t-row">
-                                <div class="t-cell"><input type="radio" name="layout" value="adaptive" id="adaptive"></div>
+                                <div class="t-cell"><input type="radio" name="layout" value="adaptive" id="adaptive" checked></div>
                                 <div class="t-cell"><label for="adaptive">Адаптивная</label></div>
                             </div>
                             <div class="t-row">
-                                <div class="t-cell"><input type="radio" name="layout" value="static" id="static" checked></div>
+                                <div class="t-cell"><input type="radio" name="layout" value="static" id="static"></div>
                                 <div class="t-cell"><label for="static">Фиксированная</label></div>
                             </div>
                             <div class="t-row">
@@ -80,6 +81,18 @@
                     </form>
                 </div>
                 <div class="shop-window">
+                    <div class="window-filter">
+                        <span class="filter-name">Сортировать:</span>
+                        <ul>
+                            <li><a href="#">По цене</a></li>
+                            <li><a href="#">По типу</a></li>
+                            <li><a href="#">По функционалу</a></li>
+                        </ul>
+                        <div class="filter-switcher">
+                            <span class="down">down</span>
+                            <span class="up">up</span>
+                        </div>
+                    </div>
                     <div class="shop-item">
                         <div class="item-browse"></div>
                         <img class="img-preview" src="img/photo/shop-1.jpg" width="240" height="240" alt="Макет Aviator">
@@ -125,9 +138,9 @@
                 <p>тел. +7 (812) 275-75-75</p>
                 <a class="btn contact-btn" href="#">Напишите нам</a>
             </div>
-            <img class="contact-map" src="img/map.jpg" alt="Как нас найти">
+            <div class="map"></div>
         </section>
-        <footer class="site-footer">
+        <footer class="site-footer clearfix">
             <div class="wrapper">
                 <div class="footer-social">
                     <a href="#" class="social-btn social-btn-vk">Вконтакте</a>
