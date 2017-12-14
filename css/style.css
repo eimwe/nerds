@@ -1,0 +1,146 @@
+body{
+    margin:0;
+    padding:0;
+    background:#fff;
+    font:14px 'Myriad Pro', Calibri, sans-serif;
+    color:#000;
+}
+.clearfix::after{
+    content:"";
+    display:table;
+    clear:both;
+}
+.wrapper{
+    width:880px;
+    padding:0 10px;
+    margin:0 auto;
+}
+.site-header{
+    padding-top:60px;
+    margin-bottom:60px;
+    background:#eee;
+}
+.header-logo{
+    float:left;
+    width:140px;
+    margin-top:-25px;
+}
+.header-menu{
+    float:left;
+    width:400px;
+    margin-left:170px;
+    margin-bottom:60px;
+    list-style:none;
+    font-size:0;
+}
+.header-menu li{
+    display:inline-block;
+    vertical-align:top;
+    width:100px;
+    padding:10px 0;
+    text-align:center;
+}
+.header-menu li a{
+    font-size:14px;
+    text-decoration:none;
+}
+.header-user{
+    width:100px;
+    float:right;
+    padding:10px 0;
+    margin-left:60px;
+}
+.head-slider{
+    padding-bottom:80px;
+    background:#a9a9a9;
+}
+.slider-1{
+    background:#f6f6f6;
+}
+.slider-2, .slider-3{
+    display:none;
+}
+.slider-desc{
+    float:left;
+    width:370px;
+    margin-right:160px;
+}
+.slider-img{
+    float:right;
+}
+.services{
+    margin-top:80px;
+    padding-bottom:90px;
+    border-bottom:2px solid #818181;
+    font-size:0;
+}
+.services-item{
+    display:inline-block;
+    vertical-align:top;
+    width:240px;
+    min-height:300px;
+    margin-right:80px;
+    font-size:14px;
+}
+.services-item:last-child{
+    margin-right:0;
+}
+.about{
+    padding:75px 0;
+    border-bottom:2px solid #818181;
+}
+.about-left{
+    float:left;
+    width:580px;
+    margin-right:60px;
+}
+.about-right{
+    float:right;
+    width:240px;
+}
+.about-logo{
+    margin-top:-30px;
+}
+.clients{
+    padding:45px 10px 35px;
+    border-bottom:2px solid #818181;
+    font-size:0;
+}
+.client{
+    display:inline-block;
+    vertical-align:middle;
+    width:220px;
+    margin-right:100px;
+    text-align:center;
+    font-size:14px;
+}
+.client:last-child{
+    margin-right:0;
+}
+.contact{
+    padding:85px 0 0;
+}
+.map{
+    width:100%;
+    min-height:416px;
+    background-image:url(../img/map.png);
+}
+.contact-info{
+    float:left;
+    width:250px;
+    margin-top:170px;
+    margin-left:160px;
+}
+.site-footer{
+    padding-top:90px;
+    padding-bottom:75px;
+}
+.footer-social{
+    float:left;
+    width:240px;
+    margin-right:80px;
+}
+.footer-advert{
+    float:right;
+    width:560px;
+}
